@@ -1,10 +1,11 @@
-/* orbitron font */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 /* press start 2p font */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-body {
+html {
     font-family: 'Orbitron', sans-serif;
+}
+
+body {
     background-image: url('starTrek.jpg');
     color:rgba(255,255,255, 0.6);
     background-position:center;
@@ -42,6 +43,7 @@ li {
 
 h4 {
     letter-spacing:15px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h2, h3, h4 {
